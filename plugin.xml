@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-macaddress" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>macaddress</name>
+    <js-module name="getmac" src="www/getmac.js">
+        <clobbers target="window.MacAddress" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="getmac">
+                <param name="android-package" value="com.plugins.getmac.getmac" />
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        </config-file>
+        <source-file src="src/android/getmac.java" target-dir="src/plugins/getmac" />
+    </platform>
+</plugin>
