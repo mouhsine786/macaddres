@@ -1,29 +1,29 @@
 {
-    "name": "getmac",
-    "version": "0.0.1",
-    "description": "Cordova MacAddress Plugin for android 6 and IOS",
-    "cordova": {
-        "id": "getmac",
-        "platforms": [
-            "android"
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mouhsine786/macaddres.git"
-    },
-    "keywords": [
-        "cordova",
-        "macaddress",
-        "ecosystem:cordova",
-        "cordova-android",
-        "cordova-ios"
-    ],
-    "license": "MIT",
-    "homepage": "https://github.com/mouhsine786/macaddres.git",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Mouhsine Rohoman <mouhsine786@gmail.com>"
+  "name": "androidmacaddress",
+  "version": "0.0.5",
+  "description": "MacAddress Plugin for android",
+  "cordova": {
+    "id": "macaddress",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mouhsine786/macaddres.git"
+  },
+  "keywords": [
+    "cordova",
+    "androidmacaddress",
+    "macaddress",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mouhsine786/macaddres.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mouhsine Rohoman <mouhsine786@gmail.com>"
 }
